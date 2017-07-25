@@ -1,0 +1,46 @@
+body {
+    background-color: pink;
+}
+.logo {
+    color: red;
+}
+.menu-buttom {
+    color: green;
+}
+/* :visited only work for onchor elments */
+.menu-item:visited {
+    color: #444;
+}
+#above-the-fold p {
+    color:#fff;
+}
+.card button {
+    background-color:#AFA;
+    color: #fff;
+}
+.blog-article p::first-letter {
+    font-size: 30px;
+}
+/* text-indent can be on cm too. margin-left: 30px;
+text-indent: 30px;*/
+
+p::selection {
+    background-color: yellow;
+}
+#blog {
+    background-color: #666;
+    color: #cff;
+}
+.gallery figure {
+
+    transition: box-shadow .6s, background-color 2s;
+}
+.gallery figure:hover {
+    box-shadow: 0 10px 35px 0 #000;
+}
+.gallery figcaption {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
